@@ -1,0 +1,66 @@
+/* Intro.module.css */
+.intro {
+  padding: 50px 0; /* Add padding to top and bottom */
+}
+
+.text {
+  margin-bottom: 50px; /* Add margin to ensure spacing between sections */
+}
+.projectSummary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+
+.projectSummary > div {
+  flex: 1 1 30%;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .projectSummary > div {
+    flex: 1 1 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectSummary > div {
+    flex: 1 1 100%;
+  }
+}
+@media (max-width: 696px), (max-height: 696px) {
+  .projectSummary
+  {
+    margin-top: -20% !important;
+  }
+}
+
+.homeFooter{
+  @media (--mediaMobile){
+    margin: auto !important;
+    margin-left: 20% !important;
+  }
+}
+
+.header {
+  z-index: 2; /* Ensure the header is above other elements */
+  position: relative; /* Position relative to manage z-index */
+}
+
+/* Home.module.css */
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 100px; /* Add a larger gap between sections */
+}
+
+.section {
+  margin-bottom: 100px; /* Add margin to ensure spacing between sections */
+}
+
+.project-summary {
+  position: relative;
+  z-index: 1; /* Ensure project summaries are positioned correctly */
+}

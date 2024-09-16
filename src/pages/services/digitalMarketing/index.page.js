@@ -1,0 +1,1 @@
+export { digitalMarketing as default } from './digitalMarketing';

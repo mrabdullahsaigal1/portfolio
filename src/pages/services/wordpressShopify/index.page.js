@@ -1,0 +1,1 @@
+export { wordpressShopify as default } from './wordpressShopify';

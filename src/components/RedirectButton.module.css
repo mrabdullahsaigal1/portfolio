@@ -1,0 +1,40 @@
+/* components/RedirectButton.module.css
+.button {
+    padding: 10px 20px;
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  } */
+  
+  .button {
+    margin-right: 10px;
+    background: linear-gradient(145deg, #ab5a9d, #9e8aa0);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #ffffff !important;
+    display: inline-block;
+    font-family: Montserrat, Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all 0.5s ease;
+  }
+  
+  .button:hover {
+    background: #ffffff !important;
+    color: #ab5a9d !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transform: translateY(-2px); 
+    border-color: #ab5a9d;
+  }
